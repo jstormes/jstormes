@@ -1,7 +1,6 @@
 {
     "name": "jstormes/jstormes",
     "description": "Composer nspace package",
-    "version": "1.0.2",
     "license": "GPL-2.0",
     "authors": [
         {
