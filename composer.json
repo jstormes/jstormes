@@ -1,8 +1,8 @@
 {
     "name": "jstormes/jstormes",
-    "description": "Composer package for the ZF2 jstormes Namespace",
+    "description": "Composer nspace package",
+    "version": "1.0.1",
     "license": "GPL-2.0",
-    "type":"library",
     "authors": [
         {
             "name": "jstormes",
@@ -11,8 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.0"
     },
-    "require-dev": {
+    "autoload": {
+        "psr-0": {
+            "JStormes": "src/"
+        }
     }
 }
