@@ -1,0 +1,13 @@
+{
+    "name": "jstormes/jstormes",
+    "description": "Composer package for the ZF2 jstormes Namespace",
+    "license": "GPL2.0",
+    "authors": [
+        {
+            "name": "jstormes",
+            "email": "jstormes@stormes.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
