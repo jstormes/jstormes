@@ -1,7 +1,8 @@
 {
     "name": "jstormes/jstormes",
     "description": "Composer package for the ZF2 jstormes Namespace",
-    "license": "GPL2.0",
+    "license": "GPL-2.0",
+    "type":"library",
     "authors": [
         {
             "name": "jstormes",
@@ -9,5 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+    }
 }
